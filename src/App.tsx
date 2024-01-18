@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+const App: React.FC = () => {
+  // ...seu código React aqui
+  return <div>Hello, World!</div>;
 
 function App() {
   const [gerador, setGerador] = useState(false);
