@@ -1,0 +1,40 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.buton {
+ background-color: beige;
+  padding: 10px 20px; 
+  font-size: 16px; /* Tamanho da fonte do texto do botão */
+  border: none; /* Remova a borda padrão do botão */
+  cursor: pointer; /* Transforma o cursor em uma mão quando passa sobre o botão */
+  
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao botão */
+
+}
+
+.buton:hover {
+  background-color:gray; /* Altera a cor de fundo quando o mouse passa sobre 
+  o botão */
+
+}
+/* App.css */
+
+.input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid beige;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none; /* Remove a borda de foco padrão */
+  margin-top: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra ao botão */
+}
+main{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
