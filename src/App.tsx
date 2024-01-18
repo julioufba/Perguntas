@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-const App: React.FC = () => {
-  // ...seu código React aqui
-  return <div>Hello, World!</div>;
 
-function App() {
+const App: React.FC = () => {
   const [gerador, setGerador] = useState(false);
   const [nome, setNome] = useState('');
   const [fraseAleatoria, setFraseAleatoria] = useState('');
