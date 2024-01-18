@@ -7,12 +7,15 @@ const App: React.FC = () => {
   const [fraseAleatoria, setFraseAleatoria] = useState('');
 
   useEffect(() => {
-    if (nome === "isac" || nome === "isaac" || nome === "isaac silva borges") {
+    const nomeLowerCase = nome.toLowerCase();
+  
+    if (nomeLowerCase === "isac" || nomeLowerCase === "isaac" || nomeLowerCase === "isaac silva borges") {
       setFraseAleatoria("qual foi sua ultima cirurgia?");
     } else {
       setFraseAleatoria(getPhraseAleatoria());
     }
   }, [nome]);
+  
 
   const getPhraseAleatoria = () => {
     const phrases = ["qual é o seu filme favorito de todos os tempos?",
